@@ -1,0 +1,52 @@
+/* ↔️ max-width + ↕️ max-height ================================================ */
+
+@media only screen and (max-height: 400px) {
+
+  body {
+    background-image: url('./img/sea.jpg');
+  }
+
+  .text1 {
+    display: none;
+  }
+
+  .text2 {
+    display: block;
+  }
+
+  .image1 {
+    display: none;
+  }
+
+  .image2 {
+    display: block;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 600px) and (max-height: 400px) {
+
+  body {
+    background-image: url('./img/grass.jpg');
+  }
+
+  .text1 {
+    display: none;
+  }
+
+  .text2 {
+    display: block;
+  }
+
+  .image1 {
+    display: none;
+  }
+
+  .image2 {
+    display: block;
+  }
+
+}
+

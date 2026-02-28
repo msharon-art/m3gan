@@ -1,0 +1,67 @@
+/* font: import ================================================ */
+@font-face {
+  font-family: 'MyFont1';
+  src: url('./font/AUTHENTICSans-130.otf') format('opentype');
+  /* src: url('./font/YourFontFile.ttf') format('truetype'); */
+}
+
+
+/* Layout ================================================ */
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  background-image: url('./img/sky.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+/* text ================================================ */
+.text1 {
+  display: block;
+  font-family: 'MyFont1';
+  font-size: 150px;
+  color: white;
+}
+
+.text2 {
+  display: none;
+  font-family: 'MyFont1';
+  font-size: 50px;
+  color: white;
+}
+
+.text3 {
+  display: none;
+  font-family: 'MyFont1';
+  font-size: 50px;
+  color: white;
+}
+
+
+/* Image ================================================ */
+.image1 {
+  display: block;
+  width: 300px;
+}
+
+.image2 {
+  display: none;
+  width: 100px;
+}
+
+.image3 {
+  display: none;
+  width: 100px;
+}

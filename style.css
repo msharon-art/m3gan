@@ -1,0 +1,93 @@
+/* font: import ================================================ */
+@font-face {
+  font-family: 'litfont';
+  src: url('./font/AUTHENTICSans-130.otf') format('opentype');
+  /* src: url('./font/YourFontFile.ttf') format('truetype'); */
+}
+
+
+/* Layout ================================================ */
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 190vh;
+  /* background: #ff5b9f; */
+  background-image: url("./img/EMOJIS.gif");
+  background-size: 100vh;
+}
+
+.spline {
+  height: 100vh; 
+  width: 100%;
+  position: relative;
+}
+spline-viewer {
+  display: block;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  /* touch-action: pan-y; */
+  /* pointer-events: none; */
+  /* z-index: -1; */
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 2px;
+}
+.column {
+  flex: 1; 
+  padding: 1rem;
+}
+.column2 {
+  flex: 1; 
+  padding: 1rem;
+  /* background-color: #3d59a8; */
+}
+
+/* text ================================================ */
+.bio{
+  display:block;
+  font-family: "lores-12", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 10px;
+  background-color: #f368a7;
+}
+
+
+/* Image ================================================ */
+.welcome{
+  width: 80vw;
+  display: block;
+  margin: 0 auto;
+}
+#meg{
+  /* position: fixed; */
+  width: 40vw;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+#about{
+  width: 40vw;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+#proj{
+  width: 40vw;
+  margin-left: 15px;
+  margin-top: 25px;
+}

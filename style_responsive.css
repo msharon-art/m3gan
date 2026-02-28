@@ -1,0 +1,158 @@
+/* ↔️ max-width + ↕️ max-height ================================================ */
+
+
+@media only screen and (max-width: 1400px) and (max-height: 1150px) {
+
+
+  
+    .one{
+        display:none;
+        font-family: 'litfont';
+        size: 300 px;
+        color: white;
+    }
+    .two{
+        display:block;
+        font-family: 'litfont';
+        size: 300 px;
+        color: white;
+    }
+
+}
+
+
+@media only screen and (max-width: 1200px) and (max-height: 950px) {
+
+
+  
+    .one{
+        display:none;
+        font-family: 'litfont';
+        size: 300 px;
+        color: white;
+    }
+    .two{
+        display:none;
+        font-family: 'litfont';
+        size: 300 px;
+        color: white;
+    }
+    .three{
+        display:block;
+        font-family: 'litfont';
+        size: 300 px;
+        color: white;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) and (max-height: 750px) {
+
+
+   
+
+    .one{
+        display:none;
+        font-family: 'litfont';
+        size: 300 px;
+        color: white;
+    }
+    .two{
+        display:none;
+        font-family: 'litfont';
+        size: 300 px;
+        color: white;
+    }
+    .three{
+        display:none;
+        font-family: 'litfont';
+        size: 300 px;
+        color: white;
+    }
+    .four{
+        display:block;
+        font-family: 'litfont';
+        size: 300 px;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 800px) and (max-height: 550px) {
+
+
+   
+    .one{
+        display:none;
+        font-family: 'litfont';
+        size: 300 px;
+        color: white;
+    }
+    .two{
+        display:none;
+        font-family: 'litfont';
+        size: 300 px;
+        color: white;
+    }
+    .three{
+        display:none;
+        font-family: 'litfont';
+        size: 300 px;
+        color: white;
+    }
+    .four{
+        display:none;
+        font-family: 'litfont';
+        size: 300 px;
+        color: white;
+    }
+    .five{
+        display:block;
+        font-family: 'litfont';
+        size: 300 px;
+        color: white;
+    }
+
+}
+
+@media only screen and (max-width: 600px) and (max-height: 350px) {
+
+
+  
+    .one{
+        display:none;
+        font-family: 'litfont';
+        size: 300 px;
+        color: white;
+    }
+    .two{
+        display:none;
+        font-family: 'litfont';
+        size: 300 px;
+        color: white;
+    }
+    .three{
+        display:none;
+        font-family: 'litfont';
+        size: 300 px;
+        color: white;
+    }
+    .four{
+        display:none;
+        font-family: 'litfont';
+        size: 300 px;
+        color: white;
+    }
+    .five{
+        display:none;
+        font-family: 'litfont';
+        size: 300 px;
+        color: white;
+    }
+    .six{
+        display:block;
+        font-family: 'litfont';
+        size: 250 px;
+        color: white;
+    }
+
+}
